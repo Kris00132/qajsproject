@@ -3,12 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "npx wdio.conf.js"
+  "dependencies": {
+    "chai": "^4.3.4"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.14.3",
     "@babel/preset-env": "^7.14.4",
@@ -20,7 +17,18 @@
     "chromedriver": "^91.0.0",
     "wdio-chromedriver-service": "^7.1.0"
   },
-  "dependencies": {
-    "chai": "^4.3.4"
-  }
+  "scripts": {
+    "test": "npx wdio wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kris00132/qajsproject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kris00132/qajsproject/issues"
+  },
+  "homepage": "https://github.com/Kris00132/qajsproject#readme"
 }
